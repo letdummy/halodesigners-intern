@@ -16,7 +16,7 @@ function Nav() {
     ];
 
     return (
-        <nav className="bg-gray-50 border-gray-200">
+        <nav className="border-gray-200 relative">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
@@ -38,15 +38,15 @@ function Nav() {
                 </button>
 
                 {/* Navigation menu */}
-                <div className={`${isNavOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-blue-500 md:dark:bg-transparent">
+                <div className={`${isNavOpen ? 'absolute' : 'hidden'} w-full md:block md:w-auto top-full left-0 z-10`} id="navbar-default">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-blue-500 md:bg-transparent">
                         {navItems.map((item) => (
                             <li key={item.name}>
                                 <a
                                     href={item.href}
                                     className={`block py-2 px-3 rounded ${item.current
-                                        ? 'text-white md:dark:text-black text-center font-bold'
-                                        : 'text-white md:dark:text-black text-center font-normal opacity-50 md:hover:opacity-100'
+                                        ? 'text-white md:text-black text-center font-bold'
+                                        : 'text-white md:text-black text-center font-normal opacity-50 md:hover:opacity-100'
                                         }`}
                                     aria-current={item.current ? 'page' : undefined}
                                 >
