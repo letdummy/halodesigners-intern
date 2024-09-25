@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Service from './components/Service';
+import AboutSection from './components/AboutSection';
+import AppSection from './components/AppSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Nav />
       <Hero />
       <Service />
+      <AboutSection />
+      <AppSection />
       <Footer />
     </>
   );

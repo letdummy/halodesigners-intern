@@ -8,6 +8,7 @@ function Hero() {
                 src="/hero.svg"
                 alt="Hero Ilustration"
                 width={600}
+                className="mx-auto lg:mx-0"
             />
         </section>
     )
