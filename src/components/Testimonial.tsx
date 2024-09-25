@@ -32,7 +32,7 @@ const Testimonial: React.FC = () => {
 
 
     return (
-        <div className="max-w-4xl py-10 md:py-20 overflow-hidden relative md:mx-16 lg:mx-auto mx-3" id="testimonial">
+        <div className="max-w-4xl py-10 md:py-20 overflow-hidden relative md:mx-16 lg:mx-auto mx-3" id="testimonial" data-aos-duration="1000" data-aos="fade-up">
             <h2 className="text-3xl text-center mb-5 font-bold">
                 What our customer are saying
             </h2>
@@ -44,6 +44,7 @@ const Testimonial: React.FC = () => {
                 style={{
                     transform: `translateX(${-currentIndex * 100}%)`,
                 }}
+                data-aos="fade-up"
             >
                 {testimonials.map((testimonial, index) => (
                     <div

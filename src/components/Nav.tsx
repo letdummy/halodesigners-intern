@@ -22,7 +22,7 @@ function Nav() {
                     <img
                         src="/logo.svg"
                         className="h-8"
-                        alt="Flowbite Logo"
+                        alt="Logo"
                     />
                 </a>
 
