@@ -1,5 +1,5 @@
 import ServiceItem from "./ServiceItem";
-import { serviceItems } from "../data/DATA";
+import { services } from "../data/DATA";
 import Button from "./Button";
 
 function Service() {
@@ -17,7 +17,7 @@ function Service() {
                 you can consult with us which type of service is suitable for your health
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl self-center sm:mx-32 md:mx-9 mx-4 justify-items-center gap-y-10">
-                {serviceItems.map((item) => (
+                {services.map((item) => (
                     <ServiceItem key={item.title} {...item} />
                 ))}
             </div>

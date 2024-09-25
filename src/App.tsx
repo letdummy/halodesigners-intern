@@ -6,7 +6,8 @@ import Hero from './components/Hero';
 import Service from './components/Service';
 import AboutSection from './components/AboutSection';
 import AppSection from './components/AppSection';
-import TestimonialsCarousel from './components/Testimonial';
+import Testimonial from './components/Testimonial';
+import Article from './components/Article';
 import Footer from './components/Footer';
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Service />
       <AboutSection />
       <AppSection />
-      <TestimonialsCarousel />
+      <Testimonial />
+      <Article />
       <Footer />
     </>
   );

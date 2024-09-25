@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { testimonials } from "../data/DATA";
 
 
-const TestimonialsCarousel: React.FC = () => {
+const Testimonial: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [direction, setDirection] = useState<"left" | "right">("right");
 
@@ -32,8 +32,8 @@ const TestimonialsCarousel: React.FC = () => {
 
 
     return (
-        <div className="max-w-4xl my-20 overflow-hidden relative md:mx-16 lg:mx-auto mx-3 ">
-            <h2 className="text-2xl text-center mb-3 font-bold">
+        <div className="max-w-4xl my-20 md:my-52 overflow-hidden relative md:mx-16 lg:mx-auto mx-3 ">
+            <h2 className="text-3xl text-center mb-5 font-bold">
                 What our customer are saying
             </h2>
             <div
@@ -100,4 +100,4 @@ const TestimonialsCarousel: React.FC = () => {
     );
 };
 
-export default TestimonialsCarousel;
+export default Testimonial;
