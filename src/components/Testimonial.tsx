@@ -32,7 +32,7 @@ const Testimonial: React.FC = () => {
 
 
     return (
-        <div className="max-w-4xl my-20 md:my-52 overflow-hidden relative md:mx-16 lg:mx-auto mx-3 ">
+        <div className="max-w-4xl py-10 md:py-20 overflow-hidden relative md:mx-16 lg:mx-auto mx-3" id="testimonial">
             <h2 className="text-3xl text-center mb-5 font-bold">
                 What our customer are saying
             </h2>

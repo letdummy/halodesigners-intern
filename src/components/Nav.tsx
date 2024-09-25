@@ -9,10 +9,10 @@ function Nav() {
 
     const navItems = [
         { name: 'Home', href: '#', current: true },
-        { name: 'Find a Doctor', href: '#' },
-        { name: 'Testimonials', href: '#' },
-        { name: 'App', href: '#' },
-        { name: 'About Us', href: '#' },
+        { name: 'About Us', href: '#about-us' },
+        { name: 'Find a Doctor', href: '#doctor-section' },
+        { name: 'App', href: '#app-section' },
+        { name: 'Testimonials', href: '#testimonial' },
     ];
 
     return (

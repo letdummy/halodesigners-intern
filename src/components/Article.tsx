@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Article() {
     return (
-        <section className="flex h-fit flex-col gap-12 my-40 items-center max-w-screen-xl mx-auto">
+        <section className="flex h-fit flex-col gap-12 py-10 md:py-32 items-center max-w-screen-xl mx-auto">
             <div className="flex flex-col self-center max-w-xl items-center gap-3">
                 <h1 className="text-3xl font-bold text-center">
                     Check out our latest article

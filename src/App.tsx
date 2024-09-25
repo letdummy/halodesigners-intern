@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Service from './components/Service';
-import AboutSection from './components/AboutSection';
+import AboutSection from './components/DoctorSection';
 import AppSection from './components/AppSection';
 import Testimonial from './components/Testimonial';
 import Article from './components/Article';

@@ -48,6 +48,14 @@ const testimonials = [
         image:
             "https://letdummy.vercel.app/me.png",
     },
+    {
+        name: "Letdummy",
+        role: "The Developer",
+        quote:
+            "Well, I'm the one who made this website, and I'm very happy to see you here!",
+        image:
+            "https://avatars.githubusercontent.com/u/71609913?v=4",
+    },
 ];
 
 const articles = [

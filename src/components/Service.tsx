@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Service() {
     return (
-        <section className="flex h-fit flex-col gap-12 mt-24 items-center">
+        <section className="flex h-fit flex-col gap-12 mt-24 items-center" id="about-us">
             <div className="flex flex-col self-center max-w-xl items-center gap-3">
                 <h1 className="text-3xl font-bold">
                     Our Service

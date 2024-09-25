@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 function AboutSection() {
     return (
-        <section className="flex flex-col lg:flex-row gap-12 my-40 h-fit items-center max-w-screen-lg lg:mx-auto lg:p-5 mx-5">
+        <section className="flex flex-col lg:flex-row gap-12 my-40 h-fit items-center max-w-screen-lg lg:mx-auto lg:p-5 mx-5" id="doctor-section">
             <img src="/about.svg" alt="About Ilustration" width={600} />
             <SectionHeading
                 title="Leading healthcare providers"
