@@ -9,7 +9,7 @@ function HeroHeading() {
             <p>
                 Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
             </p>
-            <Button text="Consult Today" />
+            <Button text="Consult Today" isReverse={false}/>
         </section>
     )
 }

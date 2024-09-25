@@ -1,9 +1,10 @@
-import { serviceItems } from "../data/DATA";
 import ServiceItem from "./ServiceItem";
+import { serviceItems } from "../data/DATA";
+import Button from "./Button";
 
 function Service() {
     return (
-        <section className="flex justify-center h-fit flex-col gap-12 mt-24">
+        <section className="flex h-fit flex-col gap-12 mt-24 items-center">
             <div className="flex flex-col self-center max-w-xl items-center gap-3">
                 <h1 className="text-3xl font-bold">
                     Our Service
@@ -20,6 +21,7 @@ function Service() {
                     <ServiceItem key={item.title} {...item} />
                 ))}
             </div>
+            <Button text="Learn More" isReverse={true} />
         </section>
     )
 }
