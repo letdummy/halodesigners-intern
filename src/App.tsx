@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Nav from './components/Nav';
 
 function App() {
   useEffect(() => {
@@ -12,9 +13,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-2xl text-black font-bold' data-aos="fade-up">
-        Hello World?!
-      </h1>
+      <Nav />
     </>
   );
 }
