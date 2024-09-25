@@ -26,7 +26,6 @@ function Nav() {
                     />
                 </a>
 
-                {/* Button for mobile menu toggle */}
                 <button
                     onClick={toggleNav}
                     type="button"
@@ -37,7 +36,6 @@ function Nav() {
                     <img src='/hamburger.svg' />
                 </button>
 
-                {/* Navigation menu */}
                 <div className={`${isNavOpen ? 'absolute' : 'hidden'} w-full md:block md:w-auto top-full left-0 z-10`} id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-blue-500 md:bg-transparent">
                         {navItems.map((item) => (

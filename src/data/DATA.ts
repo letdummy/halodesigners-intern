@@ -84,6 +84,7 @@ const footerItems = [
             { name: 'Testimonials', href: '#' },
             { name: 'Find a Doctor', href: '#' },
             { name: 'Apps', href: '#' },
+            { name: 'Career', href: '#' },
         ]
     },
     {
