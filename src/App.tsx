@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Footer />
     </>
   );
 }
