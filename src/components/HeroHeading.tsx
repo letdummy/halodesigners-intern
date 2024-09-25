@@ -1,4 +1,4 @@
-
+import Button from "./Button";
 
 function HeroHeading() {
     return (
@@ -9,9 +9,7 @@ function HeroHeading() {
             <p>
                 Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
             </p>
-            <button className="rounded-full border border-transparent bg-blue-400 w-fit py-3 px-7 text-white font-bold hover:text-blue-400 hover:border-blue-400 hover:border hover:bg-white transition">
-                Consult Today
-            </button>
+            <Button text="Consult Today" />
         </section>
     )
 }

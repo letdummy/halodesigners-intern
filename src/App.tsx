@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Service from './components/Service';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Service />
       <Footer />
     </>
   );
