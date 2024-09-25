@@ -61,7 +61,27 @@ const serviceItems = [
     }, 
 ]
 
+const testimonials = [
+    {
+        name: "Edward Newgate",
+        role: "Founder Circle",
+        quote:
+            '"Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"',
+        image:
+            "https://framerusercontent.com/images/j5G82vXyLckQ3e26aHKMaQSVv84.png",
+    },
+    {
+        name: "Agus Ardi",
+        role: "Founder Sekali Submit",
+        quote:
+            "This product has streamlined our workflow and enhanced team collaboration beyond expectations!",
+        image:
+            "https://letdummy.vercel.app/me.png",
+    },
+];
+
 export {
     footerItems,
-    serviceItems
+    serviceItems,
+    testimonials
 }

@@ -2,7 +2,7 @@ import HeroHeading from "./HeroHeading";
 
 function Hero() {
     return (
-        <section className="flex justify-center gap-16 lg:gap-40 h-fit p-10 md:p-36 flex-col lg:flex-row">
+        <section className="flex justify-center gap-16 lg:gap-40 h-fit p-10 md:p-28 flex-col lg:flex-row">
             <HeroHeading />
             <img
                 src="/hero.svg"

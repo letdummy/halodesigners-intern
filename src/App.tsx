@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Service from './components/Service';
 import AboutSection from './components/AboutSection';
 import AppSection from './components/AppSection';
+import TestimonialsCarousel from './components/Testimonial';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Service />
       <AboutSection />
       <AppSection />
+      <TestimonialsCarousel />
       <Footer />
     </>
   );

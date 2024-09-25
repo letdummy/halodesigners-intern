@@ -8,7 +8,7 @@ function AppSection() {
                 description="Our dedicated patient engagement app and web portal allow you to access information instantaneously 
                 (no tedeous form, long calls, or administrative hassle) and securely"
             />
-            <img src="/about.svg" alt="About Ilustration" width={600} />
+            <img src="/app.svg" alt="About Ilustration" width={600} />
         </section>
     )
 }
